@@ -1,0 +1,170 @@
+ *{
+   margin: 0;
+    padding: 0;
+    font-family: century Gothic;
+}
+
+header
+{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../images/background.jpg);
+    height: 100vh;
+    background-size: cover; 
+    background-position: center;
+    background-color: white;
+}
+
+nav ul
+{
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
+    
+}
+
+nav ul li
+{
+    display: inline-block;
+}
+
+nav ul li a
+{
+    text-decoration: none;
+    color:  #fff;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.6s ease;
+    
+}
+
+nav ul li a:hover
+{
+    background-color: #fff;
+    color: #000;
+}
+
+nav ul li.active a
+{
+    background-color: #fff;
+    color: #000;
+}
+.logo img
+{
+    float: left;
+    width: 150px;
+    height: auto;
+}
+.main
+{
+    max-width: 1200px;
+    margin: auto;
+}
+.title
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+}
+
+.title h1
+{
+    color: #fff;
+    font-size: 70px;
+}
+
+.button
+{
+    position: absolute;
+    top: 62%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.btn
+{
+    border: 1px solid #fff;
+    padding: 10px 30px;
+    color: white;
+    text-decoration: none;
+    transition: 0.6s ease;
+}
+
+.btn:hover
+{
+     background-color: #fff;
+    color: #000;
+}
+/*-----------About section--------*/
+#aboutus
+{
+   background: white;
+    padding-top: 40px;
+    padding-bottom: 15%;
+    color: #fff;
+     background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../images/About.jpg);
+    height: 100vh;
+    background-size: cover; 
+    background-position: center;
+    background-color: white;
+    
+    
+    
+    
+    
+    
+}
+#aboutus .btn
+{
+  margin-top: 20px;
+  margin-bottom: 30px;
+    
+}
+.about-contenent
+{
+    padding-top: 20px;
+}
+/*--------get in touch-----*/
+#contact
+{
+    background: #efefef;
+    padding-top: 40px;
+    padding-bottom: 20%;
+    color: #777;
+     background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../images/contact1.jpg);
+    height: 100vh;
+    background-size: cover; 
+    background-position: center;
+    background-color: white;
+    
+    
+    
+}
+.contact-form
+{
+    padding: 15px;
+    
+}
+.form-control
+{
+    border-radius: 0;
+    border: none;
+}
+placeholder
+{
+  color: #999;  
+}
+.follow
+{
+   background: #fff;
+    margin: 50px;
+    padding: 50px;
+}
+.contact-info .fa
+{
+    margin: 10px;
+    color: #007bff;
+    font-weight: bold;
+}
+ 
+ 
